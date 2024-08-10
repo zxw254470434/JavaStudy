@@ -16,4 +16,19 @@ public class Solution26 {
 
         return slow + 1;
     }
+
+    /**
+     * <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solutions/575549/shua-chuan-lc-jian-ji-shuang-zhi-zhen-ji-2eg8/?envType=study-plan-v2&envId=top-interview-150">...</a>
+     */
+    public int removeDuplicates2(int[] nums) {
+        return process(nums, 1);
+    }
+
+    int process(int[] nums, int k) {
+        int idx = 0;
+        for (int x : nums) {
+            if (idx < k || nums[idx - k] != x) nums[idx++] = x;
+        }
+        return idx;
+    }
 }
