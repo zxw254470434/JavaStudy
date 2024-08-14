@@ -1,9 +1,8 @@
 public class Solution129 {
-    StringBuilder sb;
+    StringBuilder sb = new StringBuilder();
     int sum = 0;
 
     public int sumNumbers(TreeNode root) {
-        sb = new StringBuilder();
         traverse(root);
         return sum;
     }
@@ -11,7 +10,7 @@ public class Solution129 {
     void traverse(TreeNode root) {
         if (root == null) return;
 
-        sb.append(String.valueOf(root.val));
+        sb.append(root.val);
         if (root.left == null && root.right == null) {
             sum += Integer.parseInt(sb.toString());
         }
