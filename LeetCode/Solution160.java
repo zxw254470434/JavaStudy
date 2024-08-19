@@ -3,11 +3,8 @@ public class Solution160 {
         if (headA == null || headB == null) return null;
         ListNode p = headA, q = headB;
         while (p != q) {
-            if (p == null) p = headB;
-            else p = p.next;
-
-            if (q == null) q = headA;
-            else q = q.next;
+            p = p == null ? headB : p.next;
+            q = q == null ? headA : q.next;
         }
         return p;
     }
