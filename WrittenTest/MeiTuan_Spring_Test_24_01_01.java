@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 4、计数并输出结果：对于每个边长 i，计算满足条件的 i * i 的完美矩形区域数量。
  * 缺点：容易超时
  */
-public class Spring_Test_24_01_01 {
+public class MeiTuan_Spring_Test_24_01_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

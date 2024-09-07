@@ -5,7 +5,7 @@ import java.util.Scanner;
  * <a href="https://www.nowcoder.com/exam/test/82233439/detail?pid=55750581&pageSource=testHistory">...</a>
  * 第 2 题：小美的数组询问
  */
-public class Spring_Test_24_01_02 {
+public class MeiTuan_Spring_Test_24_01_02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(), q = sc.nextInt();

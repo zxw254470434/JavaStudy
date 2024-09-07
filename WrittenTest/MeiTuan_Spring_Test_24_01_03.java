@@ -6,7 +6,7 @@ import java.util.Scanner;
  * <a href="https://www.nowcoder.com/exam/test/82233439/detail?pid=55750581&pageSource=testHistory">...</a>
  * 第 3 题：验证工号
  */
-public class Spring_Test_24_01_03 {
+public class MeiTuan_Spring_Test_24_01_03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
